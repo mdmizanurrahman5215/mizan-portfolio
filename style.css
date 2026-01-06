@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 
 .fontFamily-open-sans {
     font-family: "Open Sans", sans-serif;
@@ -257,4 +263,85 @@ li a {
     font-size: 16px;
     color: #757575;
 
+}
+
+#resume {
+   
+    margin-top: 130px;
+}
+
+.resume-heading {
+    text-align: center;
+}
+
+.resume-header {
+    font-size: 35px;
+    font-weight: bold;
+    color: #161616;
+}
+
+.resume-container {
+    display: flex;
+    margin-top: 113px;
+    gap: 24px;
+}
+
+.educatin-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.ex-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.edu-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ex-card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    width: 511px;
+    height: 175px;
+
+}
+
+.card-head {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #757575;
+     margin-bottom: 20px;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #757575;
+}
+.btn-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
