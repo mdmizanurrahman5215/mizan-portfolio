@@ -19,7 +19,7 @@
 header {
     /* background-color: #FFF8F3; */
     padding-top: 50px;
-    background: url(images/developer.png) no-repeat top left, url(images/header_bg.png) no-repeat bottom right, #FFF8F3;
+    background: url(images/developer.png) no-repeat 38px 23px, url(images/header_bg.png) no-repeat bottom right, #FFF8F3;
 
 }
 
@@ -266,7 +266,7 @@ li a {
 }
 
 #resume {
-   
+
     margin-top: 130px;
 }
 
@@ -298,6 +298,7 @@ li a {
     font-weight: bold;
     color: #474747;
 }
+
 .ex-header {
     font-size: 30px;
     font-weight: bold;
@@ -333,15 +334,72 @@ li a {
 .card-title {
     font-size: 20px;
     color: #757575;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .card-text {
     font-size: 18px;
     color: #757575;
 }
-.btn-center{
+
+.btn-center {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
+.footer-container {
+    margin-top: 243px;
+    display: flex;
+    gap: 117px;
+    align-items: center;
+}
+
+.social-container h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.social-container p {
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    display: flex;
+    gap: 24px;
+}
+
+.image-container img {
+    width: 24px;
+    height: 24px;
+    color: #FD6E0A;
+}
+
+.form-container h1 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+
+.form input, textarea{
+ width: 461px;
+ background-color: white;
+ padding: 30px 18px;
+ margin-bottom: 24px;
+ outline: none;
+ border-radius: 5px;
+ border: none;
+ box-shadow: 2px 3px 5px 0 rgb(122, 121, 121) inset;
+ 
+
+}
+
+.form-container button{
+    margin-bottom: 130px;
+}
+
